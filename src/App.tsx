@@ -112,7 +112,7 @@ function App() {
       theme={defaultTheme}
       template={() => (
         <>
-          <Box padding="0 1em" style={{ position: "absolute", bottom: 32, left: 20 }}>
+          <Box padding="0 1em" style={{ position: "absolute", bottom: 24, left: 20 }}>
             <Progress color="#002f81" />
           </Box>
           <Box padding="0 1em" style={{ position: "absolute", bottom: 16, right: 2 }}>
@@ -285,6 +285,13 @@ function App() {
       </Slide>
       {renderSlideTitulo("Conteúdo Programático")}
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
+        <HeadingTitle>Conteúdo Programático</HeadingTitle>
+        <Text color="default" textAlign="left">
+          Para visualizar o conteúdo das aulas e o descritivo de quais temas serão abordados em cada um dos 20
+          encontros, vamos verificar o PDF do Plano de Ensino que encontra-se no portal do aluno.
+        </Text>
+      </Slide>
+      <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
         <HeadingTitle>Metodologia de Avaliação</HeadingTitle>
         <Text color="default" textAlign="left">
           Avaliações
@@ -326,7 +333,7 @@ function App() {
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
-            Primeira Entrega na <strong>Aula 10</strong> -{" "}
+            Primeira Entrega na <strong>Aula 11</strong> -{" "}
             <em>
               Levantamento de Necessidades, Objetivos, Solução Proposta, Resultados Almejados e Início do Front-end do
               Projeto (MVP)

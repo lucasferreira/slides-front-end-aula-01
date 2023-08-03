@@ -8,3 +8,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+code,
+pre {
+  font-size: 18px !important;
+}
+.conteudoProgramatico code,
+.conteudoProgramatico pre {
+  font-size: 21px !important;
+  letter-spacing: -0.5px;
+}
