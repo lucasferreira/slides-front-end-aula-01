@@ -257,7 +257,7 @@ function App() {
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
-            Membro da Organização do Criciúma DEV
+            Consultor na área de desenvolvimento de sistemas web e mobile
           </Text>
         </Appear>
       </Slide>
@@ -333,17 +333,13 @@ function App() {
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
-            Primeira Entrega na <strong>Aula 11</strong> -{" "}
-            <em>
-              Levantamento de Necessidades, Objetivos, Solução Proposta, Resultados Almejados e Início do Front-end do
-              Projeto (MVP)
-            </em>
+            Primeira Entrega na <strong>entre a aula 8 e 9</strong>.
           </Text>
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
             Última Entrega na <strong>penúltima aula</strong> <em>(antes da N-1)</em> -{" "}
-            <em>Projeto Concluído e 100% Funcional (Demonstração)</em>
+            <em>Projeto Concluído e 100% Funcional (+ Demonstração)</em>
           </Text>
         </Appear>
       </Slide>
@@ -489,24 +485,26 @@ function App() {
       </Slide>
       {renderSlideTitulo("E o futuro?")}
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
-        <HeadingTitle>WEB 3.0</HeadingTitle>
+        <HeadingTitle>WEB 3.0 (?)</HeadingTitle>
         <List>
           <Appear>
             <ListItem color="default" margin={3}>
-              Web 3.0 (ou apenas Web3, hiper-personalização, IA, blockchain (eth), descentralização)
+              Web 3.0 <em>(ou apenas Web3, hiper-personalização, IA, blockchain (eth), descentralização)</em>
             </ListItem>
           </Appear>
           <Appear>
             <ListItem color="default" margin={3}>
-              IoT
+              IA, LLM, GPT-3, OpenAI e etc
             </ListItem>
           </Appear>
           <Appear>
             <ListItem color="default" margin={3}>
-              Assistentes de Pessoais e de Voz
-              <FlexBox>
-                <Image src={amazonEcho} width={440} margin="30px auto 0" />
-              </FlexBox>
+              IoT e realidade virtual (Quest, Apple Vision e etc)
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem color="default" margin={3}>
+              Assistentes de Pessoais e de Voz (Alexa, Siri e etc)
             </ListItem>
           </Appear>
           <Appear>
