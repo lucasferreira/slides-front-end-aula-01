@@ -145,9 +145,15 @@ function App() {
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
         <HeadingTitle>Objetivos do Curso</HeadingTitle>
         <Text color="default" textAlign="left">
-          Promover um ensino de qualidade, para que o Engenheiro de Software adquira as competências técnicas,
-          científicas e profissionais necessárias, dentre elas: sua capacidade de aprender a aprender, competências
-          interpessoais como comunicação e colaboração, e ainda, saber empreender e inovar.
+          O objetivo do curso de Engenharia de Software, em consonância com a Resolução nº 5, de 16 de Novembro de 2016
+          e com o Plano Pedagógico do Curso, é capacitar os estudantes para atuarem na criação de sistemas de software
+          de alta qualidade de forma sistemática, controlada, eficaz e eficiente. Isso implica em uma sólida formação
+          nas áreas de Engenharia de Requisitos, Desenvolvimento de Software, Arquitetura de Software e Arquitetura de
+          Testes de Software. Os egressos devem ser capazes de criar soluções para problemas complexos, considerando
+          relações entre diferentes domínios de conhecimento e aplicação, enquanto compreendem o impacto social, ético,
+          legal e econômico de seus projetos de software. Além disso, devem estar preparados para agir de forma
+          reflexiva e responsável, reconhecendo a importância da inovação, criatividade e compreensão das perspectivas
+          de negócios e oportunidades relevantes na área de Engenharia de Software.
         </Text>
       </Slide>
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
