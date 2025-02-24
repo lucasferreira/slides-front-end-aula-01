@@ -199,11 +199,14 @@ function App() {
           <Heading color="white" fontSize="h3" backgroundColor="#000000" padding="9px 20px" margin="0">
             github.com/lucasferreira
           </Heading>
-          <Heading color="white" fontSize="h3" backgroundColor="#1da1f2" padding="9px 20px" margin="0">
-            twitter.com/lucasferreira
+          <Heading color="white" fontSize="h3" backgroundColor="#3366AA" padding="9px 20px" margin="0">
+            linkedin.com/in/lucasferreira
           </Heading>
           <Heading color="white" fontSize="h3" backgroundColor="#d82b7d" padding="9px 20px" margin="0">
             instagram.com/lucasferreira
+          </Heading>
+          <Heading color="white" fontSize="h3" backgroundColor="#1da1f2" padding="9px 20px" margin="0">
+            x.com/lucasferreira
           </Heading>
           <Heading color="secondary" fontSize="h3" backgroundColor="#E9E9E9" padding="9px 20px" margin="0">
             www.lucasferreira.com
@@ -235,7 +238,7 @@ function App() {
         </CodePane>
       </Slide>
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
-        <HeadingTitle>@lucasferreira</HeadingTitle>
+        <HeadingTitle>Momento Linkedinho</HeadingTitle>
         <Appear>
           <Text textAlign="left" color="default">
             Programador de Profissão e Paixão
@@ -270,7 +273,7 @@ function App() {
       <Slide backgroundImage={`url(${bgBurn})`}>
         <FlexBox flexDirection="column" style={{ height: "100%", paddingTop: "164px" }}>
           <Text fontSize={30} textAlign="center" color="white">
-            A <strong>Burn web.studio</strong> está presente no mercado há mais de 15 anos.
+            A <strong>Burn web.studio</strong> está presente no mercado há quase de 20 anos.
             <br />É uma empresa de Comunicação Interativa com foco no Desenvolvimento de Web Sites e Aplicativos,
             empresariais e pessoais.
           </Text>
@@ -326,7 +329,7 @@ function App() {
         <HeadingTitle>ABP</HeadingTitle>
         <Appear>
           <Text textAlign="left" color="default">
-            Equipes com + ou - 5 alunos <em>(temos que aguardar as definições de matrícula)</em>
+            Equipes com + ou - 4/5 alunos <em>(temos que aguardar as definições de matrícula)</em>
           </Text>
         </Appear>
         <Appear>
@@ -342,7 +345,8 @@ function App() {
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
-            Primeira Entrega na <strong>entre a aula 8 e 9</strong>.
+            Primeira Entrega na <strong>entre a aula 10 e 12</strong>{" "}
+            <em>(depende do andamento do conteúdo da disciplina)</em>
           </Text>
         </Appear>
         <Appear>
