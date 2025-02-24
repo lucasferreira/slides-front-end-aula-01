@@ -22,6 +22,7 @@ import goodWork from "./assets/good-work.gif";
 import bg from "./assets/bg.jpg";
 import bgCapa from "./assets/bg_capa.jpg";
 import bgBurn from "./assets/bg_burn.jpg";
+import bgMM from "./assets/mm.jpg";
 import engSimbWhite from "./assets/eng_simb_white.png";
 import wait from "./assets/wait.gif";
 import confusedThickAmerican from "./assets/ConfusedThickAmerican.gif";
@@ -39,7 +40,6 @@ import empApple from "./assets/sites/apple.png";
 import empPancho from "./assets/sites/panchohp.png";
 import theProj from "./assets/sites/theproject.png";
 import flashLogo from "./assets/flash-logo.png";
-import amazonEcho from "./assets/amazon_echo.jpg";
 import imgGmail from "./assets/sites/gmail.jpg";
 import launchIphone from "./assets/launch-iphone.jpg";
 
@@ -263,7 +263,7 @@ function App() {
         </Appear>
         <Appear>
           <Text textAlign="left" color="default">
-            Consultor na área de desenvolvimento de sistemas web e mobile
+            CTO na MaisMei
           </Text>
         </Appear>
       </Slide>
@@ -282,6 +282,9 @@ function App() {
             www.burnweb.com.br
           </Text>
         </FlexBox>
+      </Slide>
+      <Slide backgroundImage={`url(${bgMM})`} backgroundPosition="top center">
+        <FlexBox flexDirection="column" style={{ height: "100%", paddingTop: "164px" }}></FlexBox>
       </Slide>
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
         <FlexBox flexDirection="column" style={{ height: "100%" }}>
