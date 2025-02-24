@@ -61,6 +61,7 @@ const defaultTheme = {
     h2: "64px",
     h3: "48px",
     text: "28px",
+    smallText: "24px",
     listItem: "18px",
   },
   space: ["8px 24px", "39px 24px 9px", "38px 44px", "6px 6px 18px"],
@@ -144,16 +145,15 @@ function App() {
       </Slide>
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
         <HeadingTitle>Objetivos do Curso</HeadingTitle>
-        <Text color="default" textAlign="left">
-          O objetivo do curso de Engenharia de Software, em consonância com a Resolução nº 5, de 16 de Novembro de 2016
-          e com o Plano Pedagógico do Curso, é capacitar os estudantes para atuarem na criação de sistemas de software
-          de alta qualidade de forma sistemática, controlada, eficaz e eficiente. Isso implica em uma sólida formação
-          nas áreas de Engenharia de Requisitos, Desenvolvimento de Software, Arquitetura de Software e Arquitetura de
-          Testes de Software. Os egressos devem ser capazes de criar soluções para problemas complexos, considerando
-          relações entre diferentes domínios de conhecimento e aplicação, enquanto compreendem o impacto social, ético,
-          legal e econômico de seus projetos de software. Além disso, devem estar preparados para agir de forma
-          reflexiva e responsável, reconhecendo a importância da inovação, criatividade e compreensão das perspectivas
-          de negócios e oportunidades relevantes na área de Engenharia de Software.
+        <Text color="default" textAlign="left" fontSize="smallText">
+          O objetivo do curso de Engenharia de Computação, em consonância com a Resolução nº 5, de 16 de Novembro de
+          2016 e com o Plano Pedagógico do Curso, é promover um ensino de qualidade, capacitando os estudantes para
+          adquirirem competências técnicas, científicas e profissionais essenciais. Isso inclui sólida formação em
+          Desenvolvimento de Software, Inteligência Artificial (IA), Internet das Coisas (IoT) e Cibersegurança. Além
+          disso, busca-se desenvolver habilidades como capacidade de aprendizado contínuo, competências interpessoais,
+          como comunicação e colaboração, e a capacidade de empreender e inovar. Os egressos devem compreender o impacto
+          direto e indireto de seus projetos na sociedade, considerando aspectos econômicos, sociais e éticos, e estar
+          preparados para atuar de forma reflexiva e responsável no contexto da engenharia de computação.
         </Text>
       </Slide>
       <Slide backgroundImage={`url(${bg})`} backgroundPosition="top left">
